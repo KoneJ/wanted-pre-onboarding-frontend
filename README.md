@@ -1,3 +1,14 @@
+
+## 지원자 성명 : 고원준
+
+
+
+
+## 데모 영상
+
+https://github.com/KoneJ/wanted-pre-onboarding-frontend/assets/86594108/ea630670-0399-4cbd-9966-45352cae7c7f
+
+
 ### Assignment 1
 * 이메일 유효성 검사를 email.includes('@')로 하여 '@' 문자가 포함되어야 하며, 비밀번호의 유효성 검사는 password.length >= 8로 8자 이상이어야 함을 확인합니다.
 
