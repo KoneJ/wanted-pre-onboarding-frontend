@@ -1,8 +1,7 @@
 import 'tailwindcss/tailwind.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import SignUpPage from './pages/LoginPage';
-import LoginPage from './pages/SignupPage';
-import MainPage from './pages/MainPage';
+import SignUpPage from './pages/SignUpPage';
+import SignInPage from './pages/SignInPage';
 import TodoPage from './pages/TodoPage';
 
 function App() {
@@ -10,10 +9,9 @@ function App() {
     <Router>
       <Routes>
         <Route path="/signup" element={<SignUpPage />} />
-        <Route path="/login" element={<LoginPage />} />
+        <Route path="/signin" element={<SignInPage />} />
         <Route path="/todo" element={<TodoPage />} />
-        <Route path="/" element={<MainPage />} />
-
+        <Route path="/" element={<SignUpPage />} />
       </Routes>
     </Router>
   );

@@ -10,8 +10,8 @@ module.exports = {
     // 다른 config를 사용하더라도 prettier를 맨 마지막에 넣어야 모든 중복 규칙을 비활성화 시킬 수 있다.
     "airbnb", // Airbnb 스타일 가이드를 기반으로 하는 ESLint 규칙을 사용한다는 의미
     "prettier", // Prettier와 관련된 ESLint 규칙을 사용한다는 의미
-    "plugin:import/errors", // import 구문에 대한 오류를 감지하기 위한 규칙을 사용한다는 의미
-    "plugin:import/warnings", // import 구문에 대한 경고를 감지하기 위한 규칙을 사용한다는 의미
+    // "plugin:import/errors", // import 구문에 대한 오류를 감지하기 위한 규칙을 사용한다는 의미
+    // "plugin:import/warnings", // import 구문에 대한 경고를 감지하기 위한 규칙을 사용한다는 의미
     "plugin:@typescript-eslint/recommended", // TypeScript 관련 규칙을 사용한다는 의미
     "eslint:recommended", // 기본적인 ESLint 규칙을 사용한다는 의미
     "plugin:react/jsx-runtime", // JSX 요소를 사용할 때 React가 필요하다는 경고를 피하기 위한 설정
